@@ -3,6 +3,7 @@ import Conditions from "./components/Conditions.jsx";
 import Decoration from "./components/decoration.jsx";
 import FancyButton from "./components/FancyButton.jsx";
 import FlexCat from "./components/FlexCat.jsx";
+import Quotes from "./components/Quotes.jsx";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       {/* <FancyButton>click me</FancyButton>
       <FancyButton large>submit</FancyButton> */}
       {/* <FlexCat /> */}
+      <Quotes />
     </>
   );
 }
