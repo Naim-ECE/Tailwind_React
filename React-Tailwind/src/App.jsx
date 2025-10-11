@@ -1,6 +1,8 @@
 import Colors from "./components/colors.jsx";
 import Conditions from "./components/Conditions.jsx";
 import Decoration from "./components/decoration.jsx";
+import EventHandling from "./components/EventHandling.jsx";
+import EventHandling2 from "./components/EventHandling2.jsx";
 import FancyButton from "./components/FancyButton.jsx";
 import FlexCat from "./components/FlexCat.jsx";
 import Foogle from "./components/Foogle.jsx";
@@ -17,7 +19,9 @@ function App() {
       <FancyButton large>submit</FancyButton> */}
       {/* <FlexCat /> */}
       {/* <Quotes /> */}
-      <Foogle />
+      {/* <Foogle /> */}
+      {/* <EventHandling /> */}
+      <EventHandling2 />
     </>
   );
 }
