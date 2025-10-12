@@ -1,4 +1,5 @@
 import BigToggle from "./components/BgToggle.jsx";
+import Carousel from "./components/Carousel.jsx";
 import Colors from "./components/colors.jsx";
 import Conditions from "./components/Conditions.jsx";
 import Counter from "./components/Counter.jsx";
@@ -25,7 +26,8 @@ function App() {
       {/* <EventHandling /> */}
       {/* <EventHandling2 /> */}
       {/* <Counter /> */}
-      <BigToggle />
+      {/* <BigToggle /> */}
+      <Carousel />
     </>
   );
 }
