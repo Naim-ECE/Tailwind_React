@@ -1,13 +1,15 @@
 import { useState } from "react";
+import clsx from "clsx";
 
 const BigToggle = () => {
   const [toggle, setToggle] = useState(true);
   return (
     <>
       <div
-        className={`h-screen ${
+        className={clsx(
+          "h-screen flex justify-center items-center",
           toggle ? "bg-gray-700" : "bg-white"
-        } flex justify-center items-center`}
+        )}
       >
         <div className="flex flex-col border-1 border-gray-800">
           <button
