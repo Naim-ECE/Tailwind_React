@@ -1,5 +1,7 @@
+import BigToggle from "./components/BgToggle.jsx";
 import Colors from "./components/colors.jsx";
 import Conditions from "./components/Conditions.jsx";
+import Counter from "./components/Counter.jsx";
 import Decoration from "./components/decoration.jsx";
 import EventHandling from "./components/EventHandling.jsx";
 import EventHandling2 from "./components/EventHandling2.jsx";
@@ -21,7 +23,9 @@ function App() {
       {/* <Quotes /> */}
       {/* <Foogle /> */}
       {/* <EventHandling /> */}
-      <EventHandling2 />
+      {/* <EventHandling2 /> */}
+      {/* <Counter /> */}
+      <BigToggle />
     </>
   );
 }
